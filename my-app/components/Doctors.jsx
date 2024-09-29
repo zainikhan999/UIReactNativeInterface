@@ -9,7 +9,7 @@ const Doctors=(props)=>{
       
         <View style={styles.doc}>
           <Icon style={styles.icon} name="user-md" size={80} 
-          color="#ADD8E6" style={styles.icon} />
+          color="#1ca9c9" style={styles.icon} />
           <Text style={styles.heading}>{props.Name}</Text>
           <Text style={styles.subheading}>{props.Specialization}</Text>
           <View style={styles.ratings}>
@@ -36,8 +36,6 @@ const styles=StyleSheet.create(
             flexDirection:'column',
             alignItems:'center',
             justifyContent:'center',
-            // borderWidth: 1,
-            // borderColor: 'black',
             borderStyle: 'solid',
             rowGap:5,
             elevation:5,
@@ -56,7 +54,8 @@ const styles=StyleSheet.create(
         },
 
         subheading:{
-            fontWeight:'500'
+            fontWeight:'500',
+            color:"grey",
 
         },
           ratings:{

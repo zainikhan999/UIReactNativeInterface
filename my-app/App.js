@@ -33,16 +33,15 @@ const styles = StyleSheet.create({
     paddingTop:25,
     borderStyle:'solid',
     borderColor:'white',
-    // backgroundColor: '#ADD8E6',
+    backgroundColor: '#FBFCF8',
     },
   text:{
     fontSize:25,
     height:35,
-    padding:0,
+    padding:2,
     width:"100%",
     marginTop:10,
     color:"black",
-    fontWeight:"bold",
    },
   doctors:{
     paddingTop:1,
